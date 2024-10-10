@@ -5,6 +5,7 @@
 
     <h1>
         {% for item in items %}
+          <img src="{{item.image.url}}" alt="">
           <a href="{% url 'myapp:detail' item.id %}">
             {{item.name}} <br>
           </a>

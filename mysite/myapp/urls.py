@@ -7,3 +7,4 @@ urlpatterns = [
     path('', index),
     path('<int:id>/', index_item,name='detail'),
 ]
+
